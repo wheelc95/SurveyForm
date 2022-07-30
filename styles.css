@@ -1,0 +1,85 @@
+﻿body {
+    background-image: url("C:/Users/wheel/source/repos/SurveyForm/Images/background_img.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 1000px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    color:  white;
+}
+
+header {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+h2 {
+    text-align: left;
+    margin: 50px;
+}
+
+form {
+    width: 40%;
+    margin: auto;
+    background-color: hsla(100, 10%, 50%, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+legend {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+label {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+input[type = text] {
+    width: 60%;
+    padding: 10px 15px;
+    margin: 5px 0 30px;
+    box-sizing: border-box;
+}
+
+input[type = email] {
+    width: 60%;
+    padding: 10px 15px;
+    margin: 5px 0 30px;
+    box-sizing: border-box;
+}
+
+input[type = number] {
+    width: 15%;
+    padding: 10px 15px;
+    margin: 5px 0 30px 200px;
+    box-sizing: border-box;
+}
+
+p {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+textarea {
+    margin-left: 40px;
+    width: 75%;
+    height: 100px;
+}
+
+input[type = submit] {
+    width: 30%;
+    padding: 10px 15px;
+    margin: 20px 0 30px 200px;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 5px;
+    border: solid 2px white;
+    background-color: green;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 20px; 
+}
